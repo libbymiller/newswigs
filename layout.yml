@@ -1,0 +1,48 @@
+AllText:
+  font: ChunkFive Roman,Sans 12
+  align: center
+  color: '#111111'
+
+Title:
+  extends: AllText
+  width: 825
+  y: 700
+  x: 125
+  height: 100
+
+LeftText:
+  extends: AllText
+  x: 50
+  y: 550
+  width: 300
+  font_size: 7
+
+LeftIcon:
+  extends: AllText
+  width: 200
+  height: 200
+  x: 100
+  y: 300
+
+RightText:
+  extends: LeftText
+  x: 750 
+  font_size: 7
+
+RightIcon:
+  extends: LeftIcon
+  x: 800
+  y: 300
+
+CentreText:
+  extends: AllText
+  x: 450
+  y: 275
+  font_size: 7
+
+CentreIcon:
+  extends: AllText
+  width: 200
+  height: 200
+  x: 450
+  y: 50
