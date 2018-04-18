@@ -6,43 +6,51 @@ AllText:
 Title:
   extends: AllText
   width: 825
-  y: 700
-  x: 125
+  y: 725
+  x: 200
   height: 100
 
 LeftText:
   extends: AllText
-  x: 50
   y: 550
+  x: 125
   width: 300
   font_size: 7
 
 LeftIcon:
   extends: AllText
-  width: 200
-  height: 200
-  x: 100
-  y: 300
+  width: 175
+  height: 175
+  y: 350
+  x: 175
 
 RightText:
   extends: LeftText
-  x: 750 
+  x: 850 
   font_size: 7
 
 RightIcon:
   extends: LeftIcon
-  x: 800
-  y: 300
+  x: 900
 
 CentreText:
   extends: AllText
-  x: 450
-  y: 275
+  y: 325
+  x: 525
   font_size: 7
 
 CentreIcon:
   extends: AllText
   width: 200
   height: 200
-  x: 450
+  y: 100
+  x: 500
+
+CentreArrow:
+  extends: AllText
+  width: 600
+  height: 1200
   y: 50
+  x: 300
+
+
